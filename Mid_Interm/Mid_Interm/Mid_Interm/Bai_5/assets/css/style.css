@@ -1,0 +1,79 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+#wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#wrapper #content-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper #content-1 .form {
+  height: 120px;
+}
+
+#wrapper #content-1 .form .input_email {
+  width: 100%;
+  height: 30px;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#wrapper #content-1 .form .input_password {
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  margin-top: 15px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#wrapper #content-1 .form .child-form {
+  position: relative;
+}
+
+#wrapper #content-1 .form p {
+  color: dodgerblue;
+  line-height: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#wrapper #content-1 .button .btn-sign-in {
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  background-color: red;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+#wrapper #content-1 .suggest .suggest-1 {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+#wrapper #content-1 .suggest .suggest-2 {
+  display: inline-block;
+}
+
+#wrapper #content-1 .suggest .suggest-3 {
+  display: inline-block;
+  padding: 0 12px;
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+#wrapper #content-2 img {
+  width: 700px;
+  height: 500px;
+}

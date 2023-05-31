@@ -1,0 +1,78 @@
+#wrapper {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#wrapper .form {
+  display: flex;
+  background-color: #ccc;
+  opacity: 0.8;
+}
+
+#wrapper .form .label_name,
+#wrapper .form .label_mail,
+#wrapper .form .label_phone,
+#wrapper .form p,
+#wrapper .form .label_country,
+#wrapper .form .label_comment {
+  min-width: 100px;
+  line-height: 40px;
+}
+
+#wrapper .form .input_name {
+  flex: 1;
+  border-radius: 5px;
+  height: 40px;
+}
+#wrapper .form .input_mail {
+  flex: 1;
+  border-radius: 5px;
+  height: 40px;
+}
+#wrapper .form .input_phone {
+  flex: 1;
+  border-radius: 5px;
+  height: 40px;
+}
+
+#wrapper .form .label_male,
+#wrapper .form .label_male,
+#wrapper .form .label_other {
+  line-height: 72px;
+  padding-right: 5px;
+}
+
+#wrapper .form #country {
+  flex: 1;
+  border-radius: 5px;
+  height: 40px;
+}
+
+#wrapper .form #comment {
+  flex: 1;
+  border-radius: 5px;
+}
+
+#wrapper .button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#wrapper .button .btn-submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  color: black;
+}
+
+#wrapper .button .btn-reset {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+}

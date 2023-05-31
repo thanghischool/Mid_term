@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="form">
+        <label for="full_name" class="label_name">Full Name</label>
+        <input
+          type="text"
+          name=""
+          id="full_name"
+          class="input_name"
+          placeholder="Your full name..."
+        />
+      </div>
+
+      <div class="form">
+        <label for="email" class="label_mail">Email</label>
+        <input
+          type="text"
+          name=""
+          id="email"
+          class="input_mail"
+          placeholder="Your email..."
+        />
+      </div>
+
+      <div class="form">
+        <label for="phone" class="label_phone">Phone</label>
+        <input
+          type="text"
+          name=""
+          id="phone"
+          class="input_phone"
+          placeholder="Your phone..."
+        />
+      </div>
+
+      <div class="form">
+        <p>Gender</p>
+        <input type="radio" name="gender" id="male" class="input_male" />
+        <label for="male" class="label_male">Male</label>
+        <input type="radio" name="gender" id="female" class="input_female" />
+        <label for="female" class="label_male">Female</label>
+        <input type="radio" name="gender" id="other" class="input_other" />
+        <label for="other" class="label_other">Other</label>
+      </div>
+
+      <div class="form">
+        <label for="country" class="label_country">Country</label>
+
+        <select id="country">
+          <option value="Vietnam">Vietnam</option>
+          <option value="USA">USA</option>
+          <option value="Australia">Australia</option>
+        </select>
+      </div>
+
+      <div class="form">
+        <label for="comment" class="label_comment">Comment</label>
+        <textarea
+          name=""
+          id="comment"
+          cols="30"
+          rows="10"
+          placeholder="Write something..."
+        ></textarea>
+      </div>
+
+      <div class="button">
+        <button class="btn-submit">Submit</button>
+        <button class="btn-reset">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>

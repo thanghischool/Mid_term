@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+}
+
+#header .logo {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+#header .nav {
+  float: right;
+  margin-right: 16px;
+}
+
+#header .nav .sub-nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+#header .nav .sub-nav li a {
+  text-decoration: none;
+  color: black;
+  line-height: 80px;
+  padding: 0 16px;
+}
+
+#slider .photo .image {
+  width: 95%;
+  height: 750px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+#slider .photo .alphabet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#slider .photo .alphabet h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#slider .photo .alphabet h2 {
+  color: #fff;
+  opacity: 0.8;
+  text-align: center;
+}
+
+#content {
+  height: 1000px;
+}
+
+#content .letter-item {
+  text-align: center;
+}
+
+#content .letter-item p {
+  font-size: 40px;
+  padding: 24px 0;
+  position: relative;
+  display: inline-block;
+}
+
+#content .letter-item p::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: aquamarine;
+}
+
+#content .item {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+#content .item .item-1 .bi-megaphone {
+  font-size: 50px;
+}
+
+#content .item .item-1 h6 {
+  font-size: 20px;
+  color: aquamarine;
+  padding: 16px 0;
+}
+
+#content .item .item-2 .bi-boombox-fill {
+  font-size: 50px;
+}
+
+#content .item .item-2 h6 {
+  font-size: 20px;
+  color: aquamarine;
+  padding: 16px 0;
+}
+
+#content .item .item-3 .bi-phone-vibrate {
+  font-size: 50px;
+}
+
+#content .item .item-3 h6 {
+  font-size: 20px;
+  color: aquamarine;
+  padding: 16px 0;
+}
+
+#content .nature {
+  display: flex;
+  justify-content: space-around;
+}
+
+#content .nature .nature-1,
+#content .nature .nature-2,
+#content .nature .nature-3,
+#content .nature .nature-4 {
+  border: 2px solid #ccc;
+}
+
+#content .nature .nature-1 .describe {
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+#content .nature .nature-1 .describe p {
+  display: inline-block;
+  line-height: 50px;
+}
+#content .nature .nature-2 .describe {
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+#content .nature .nature-2 .describe p {
+  display: inline-block;
+  line-height: 50px;
+}
+#content .nature .nature-3 .describe {
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+#content .nature .nature-3 .describe p {
+  display: inline-block;
+  line-height: 50px;
+}
+#content .nature .nature-4 .describe {
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+#content .nature .nature-4 .describe p {
+  display: inline-block;
+  line-height: 50px;
+}
+
+#content .note {
+  margin-top: 30px;
+  margin-left: 20px;
+}
